@@ -69,6 +69,7 @@ function retrieveTweets() {
 }
 
 // spotifySong will retrieve information on a song from Spotify
+var spotifyKeys = keys.spotifyKeys;
 function spotifySong(song) {
  // Append the command to the log file
  fs.appendFile('./log.txt', 'User Command: node liri.js spotify-this-song ' + song + '\n\n', (err) => {
