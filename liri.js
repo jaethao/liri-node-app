@@ -146,7 +146,7 @@ function retrieveOBDBInfo(movie) {
  // Construct the query string
  var queryUrl = "http://www.omdbapi.com/?t=" + search + "&y=&plot=short&apikey=trilogy";
 
- cosole.log(queryUrl)
+ console.log(queryUrl)
 
  // Send the request to OMDB
  request(queryUrl, function (error, response, body) {
